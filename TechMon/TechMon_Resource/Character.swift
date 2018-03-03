@@ -31,7 +31,6 @@ class Character: UIViewController {
         self.currentHP = maxHP
         self.maxTP = maxTP
         self.maxMP = maxMP
-        
     }
     
     func resetStatus() {
