@@ -34,6 +34,12 @@ class Character: UIViewController {
         
     }
     
+    func resetStatus() {
+        
+        currentHP = maxHP
+        currentTP = 0
+        currentMP = 0
+    }
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
