@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Character: UIViewController {
+class Character {
 
     var name: String = ""
     var image: UIImage!
@@ -29,7 +29,7 @@ class Character: UIViewController {
         self.attackPoint = attackPoint
         self.maxHP = maxHP
         self.currentHP = maxHP
-        self.maxTP = maxTP
+        self.maxTP :maxTP
         self.maxMP = maxMP
     }
     
